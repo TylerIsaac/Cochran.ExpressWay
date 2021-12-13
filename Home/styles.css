@@ -1,3 +1,10 @@
+.container {
+  display: grid;
+  grid-template-columns: 100%;
+  padding: 0;
+  margin: 0;
+}
+
 .body-container {
   display: grid;
   grid-template-columns: auto;
@@ -16,7 +23,7 @@
 
 .main-title {
   text-align: center;
-  font-size: 16px;
+  font-size: 5vw;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
 }
@@ -51,6 +58,7 @@
   border-radius: 10px;
   border: none;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .btn1:hover {
@@ -89,8 +97,8 @@
 .cta {
   display: grid;
   grid-template-columns: auto auto;
-  grid-gap: 10px;
-  margin: 8% 3%;
+  grid-gap: 4vw;
+  margin: 8% 10%;
 }
 
 .cta-1 {
@@ -100,8 +108,7 @@
   font-family: Arial, Helvetica, sans-serif;
   padding: 15px 10px;
   font-size: 16px;
-  border-radius: 8px;
-  white-space: nowrap;
+  border-radius: 14px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -109,7 +116,7 @@
   margin-top: 12px;
   text-align: center;
   text-decoration: none;
-  border: 1px solid white;
+  border: 1.5px solid white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   color: white;
@@ -218,7 +225,7 @@
   grid-template-rows: auto auto auto;
   background-image: url("https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2021/12/111921_ity_cochran_0039-Recovered.jpg");
   background-repeat: no-repeat;
-  background-size: 250%;
+  background-size: 300%;
   background-position: right top;
   justify-content: center;
   grid-gap: 25px;
@@ -271,6 +278,7 @@
   color: black;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
 }
 
 @media screen and (min-width: 480px) {
@@ -464,6 +472,136 @@
     grid-gap: 15px;
   }
 
+  .review-title {
+    text-align: center;
+    margin-top: 45%;
+    padding: 15px 10px 0 10px;
+    color: black;
+    font-size: 28px;
+  }
+
+  .google-review1 {
+    width: 100%;
+    margin: 35% auto 50% 30px;
+    display: block;
+    height: auto;
+  }
+  
+  .google-review2 {
+    width: 100%;
+    margin: 35% auto 50% 30px;
+    display: block;
+    height: auto;
+    padding-bottom: 10%;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  .main-title {
+    font-size: 42px;
+  }
+  
+  .sub-title {
+    margin-top: 3%;
+    font-size: 30px;
+  }
+
+  .btn-group {
+    justify-content: space-evenly;
+    margin-top: 4%;
+  }
+  
+  .btn1 {
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 14px;
+  }
+
+  .title-disc {
+    margin-top: 3%;
+    font-size: 20px;
+  }
+
+  .title-two {
+    margin-top: 8%;
+    font-size: 42px;
+  }
+
+  .sub-title-two {
+    margin-top: 2%;
+    font-size: 26px;
+  }
+
+  .cta {
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 3%;
+    margin: 6% 3%;
+  }
+
+  .cta-1 {
+    padding: 25px 10px;
+    font-size: 24px;
+  }
+  
+  .cta-btn {
+    margin-top: 16px;
+    border: 2px solid white;
+    font-size: 18px;
+    padding: 6px 2px;
+    border-radius: 14px;
+
+  }
+
+  .sub-title-three {
+    margin-top: 5%;
+    font-size: 30px;
+  }
+  
+  .description-1 {
+    margin-top: 5%;
+    font-size: 22px;
+    padding: 0 10%;
+  }
+
+  .how-to-video {
+    width: 75%;
+    margin: 5% auto 8% auto;
+  }
+
+  .vid-container {
+    grid-template-columns: auto 55%;
+  }
+
+  .video-title {
+    margin-top: 15%;
+    font-size: 24px;
+  }
+
+  .video-text {
+    font-size: 20px;
+  }
+
+  .video-title-white {
+    margin-top: 15%;
+    font-size: 24px;
+    
+  }
+  
+  .video-text-white {
+    font-size: 20px;
+  }
+
+  .vid-container-white {
+    grid-template-columns: 55% auto;    
+  }
+
+  .review-title {
+    font-size: 40px;
+    margin: 185px auto 50% 30px;
+    padding: 15px 10% 0 10px;
+  }
+
   .google-review1 {
     width: 100%;
     margin: 60% auto 50% 30px;
@@ -479,4 +617,136 @@
     padding-bottom: 10%;
   }
 
+}
+
+@media screen and (min-width: 1200px) {
+  .body-container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1200px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .header-container {
+    background-image: url("https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2021/12/111921_ity_cochran_0074-Recovered-Recovered.jpg");
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position: center;
+    padding-top: 5%;
+    padding-bottom: 35%;
+  }
+
+  .main-title {
+    font-size: 3.25vw;
+  }
+  
+  .sub-title {
+    margin-top: 2%;
+    font-size: 2.25vw;
+  }
+
+  .btn-group {
+    justify-content: center;
+    margin-top: 3%;
+  }
+  
+  .btn1 {
+    font-size: 1.33vw;
+    padding: 14px 3.5vw;
+    border-radius: 16px;
+  }
+
+  .title-disc {
+    margin-top: 2%;
+    font-size: 1.25vw;
+  }
+
+  .title-two {
+    margin-top: 6%;
+    font-size: 3.25vw;
+  }
+
+  .sub-title-two {
+    font-size: 2vw;
+  }
+
+  .cta-1 {
+    padding: 35px 5px;
+    font-size: 30px;
+  }
+  
+  .cta-btn {
+    margin-top: 16px;
+    font-size: 1..25vw;
+    padding: 8px 2px;
+    border-radius: 16px;
+  }
+
+  .sub-title-three {
+    margin-top: 5%;
+    font-size: 2.5vw;
+  }
+  
+  .description-1 {
+    margin-top: 3%;
+    font-size: 18px;
+    padding: 0 10%;
+  }
+
+  .how-to-video {
+    width: 850px;
+    margin: 5% auto 8% auto;
+  }
+
+  .video-title {
+    margin-top: 15%;
+    font-size: 25px;
+  }
+
+  .video-text {
+    font-size: 20px;
+  }
+
+  .video-title-white {
+    margin-top: 15%;
+    font-size: 25px;
+    
+  }
+  
+  .video-text-white {
+    font-size: 20px;
+  }
+
+  .review-title {
+    font-size: 3vw;
+    margin: 185px 0 50% 0;
+    padding: 15px 0 0 0px;
+    justify-content: center;
+  }
+
+  .google-review1 {
+    width: 135%;
+    margin: 60% 0 50% 12%;
+    display: block;
+    height: auto;
+  }
+  
+  .google-review2 {
+    width: 135%;
+    margin: 60% 0 50% 0;
+    display: block;
+    height: auto;
+    padding-bottom: 10%;
+  }
+
+  .review-container {
+    grid-template-columns: auto auto auto;
+    background-image: url("https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2021/12/111921_ity_cochran_0039-Recovered.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    justify-content: space-around;
+    grid-gap: 100px;
+  }
 }
