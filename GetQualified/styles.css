@@ -1,22 +1,13 @@
 .container {
   font-family: Arial, Helvetica, sans-serif;
   display: grid;
-  grid-template-columns: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-.body-container {
-  display: grid;
   grid-template-columns: auto;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding: 0;
   margin: 0;
 }
 
 .header-container {
   background-color: #eceff2;
-
   text-align: center;
   padding: 45px 15px 25px 15px;
 }
@@ -68,7 +59,7 @@
 
 .img-1 {
   width: 100%;
-  margin: -10px auto 20px 1%;
+  margin: -10px auto 20px auto;
   display: block;
   height: auto;
 }
@@ -97,11 +88,18 @@
   text-align: center;
 }
 
+.grey-container2 {
+  background-color: #ededed;
+  padding: 5px 20px 0px 20px;
+  text-align: center;
+}
+
 .papers {
-  width: 100%;
-  margin: 25px auto 0 1%;
   display: block;
-  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  width: 100%;
 }
 
 .title-three {
@@ -131,7 +129,7 @@
 
 .row-three-img {
   width: 100%;
-  margin: 25px auto 30px 1%;
+  margin: 25px auto 30px auto;
   display: block;
   height: auto;
 }
@@ -149,8 +147,6 @@
 
   .p-1 {
     font-size: 2.5vw;
-    margin-top: 20px;
-    margin-bottom: 35px;
     margin: 20px 5% 35px 5%;
   }
 
@@ -173,46 +169,213 @@
     display: block;
     height: auto;
   }
-  
+
   .title-two {
     text-align: start;
     font-size: 2.75vw;
     margin-top: 40%;
     margin-left: 2%;
-    margin-right: 5%
+    margin-right: 5%;
   }
-  
+
   .p-2 {
     text-align: start;
     font-size: 2.5vw;
     margin: 15px 7% 15px 2%;
   }
-  
+
   .p-3 {
     font-size: 2.5vw;
     margin: 5% 10% 15px 10%;
   }
-  
+
   .title-two-center {
     font-size: 2.75vw;
     margin-top: 7%;
   }
-  
+
   .papers {
-  
-      margin: 75px auto 0 1%;
-    }
-  
-    .title-three {
-      font-size: 4.5vw;
-      white-space: nowrap;
-      font-weight: 500;
-      margin: 8% 0 3% 0;
-    }
-  
-    .btn2 {
-          margin-bottom: 8%;
-    }
-  
+    margin-top: 75px;
+  }
+
+  .title-three {
+    font-size: 4.5vw;
+    white-space: nowrap;
+    font-weight: 500;
+    margin: 8% 0 3% 0;
+  }
+
+  .btn2 {
+    margin-bottom: 8%;
+  }
 }
 
+@media screen and (min-width: 992px) {
+  .title-one {
+    font-size: 4vw;
+    white-space: nowrap;
+    font-weight: 500;
+  }
+
+  .hr1 {
+    border: 3px solid #dddedf;
+    width: 9vw;
+  }
+
+  .p-1 {
+    font-size: 2vw;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    margin: 20px 5% 35px 5%;
+  }
+
+  .btn1 {
+    font-size: 1.5vw;
+    padding: 8px 36px;
+  }
+
+  .img-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 6%;
+    width: 65%;
+  }
+
+  .title-two {
+    text-align: start;
+    font-size: 2.25vw;
+    margin-top: 30%;
+    margin-left: 2%;
+    margin-right: 10%;
+  }
+
+  .p-2 {
+    text-align: start;
+    font-size: 1.75vw;
+    margin: 15px 10% 15px 2%;
+  }
+
+  .p-3 {
+    font-size: 1.75vw;
+    margin: 5% 10% 15px 10%;
+  }
+
+  .title-two-center {
+    font-size: 2.25vw;
+    margin-top: 7%;
+  }
+
+  .papers {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    width: 60%;
+  }
+
+  .row-three-img {
+    width: 60%;
+    margin: 25px auto 5% auto;
+    display: block;
+    height: auto;
+  }
+
+  .title-three {
+    font-size: 4vw;
+    margin: 6% 0 3% 0;
+  }
+
+  .btn2 {
+    font-size: 1.5vw;
+    margin-bottom: 5%;
+    padding: 8px 36px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .title-one {
+    font-size: 38px;
+  }
+
+  .hr1 {
+    width: 70px;
+  }
+
+  .p-1 {
+    display: grid;
+    grid-template-columns: 800px;
+    justify-content: center;
+    font-size: 18px;
+    margin: 75px 18% 35px 18%;
+  }
+
+  .btn1 {
+    font-size: 16px;
+  }
+
+  .row-one-container {
+    display: grid;
+    grid-template-columns: 650px 550px;
+    justify-content: center;
+  }
+
+  .title-two {
+    text-align: start;
+    font-size: 26px;
+    margin-top: 30%;
+    margin-left: 0%;
+    margin-right: 10%;
+  }
+
+  .p-2 {
+    text-align: start;
+    font-size: 18px;
+    margin: 15px 18% 15px 0%;
+  }
+
+  .img-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 6%;
+    width: 65%;
+  }
+
+  .title-two-center {
+    font-size: 26px;
+    margin-top: 75px;
+  }
+
+  .p-3 {
+    display: grid;
+    grid-template-columns: 750px;
+    justify-content: center;
+    font-size: 18px;
+    margin: 50px 10% 15px 10%;
+  }
+
+  .papers {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    width: 650px;
+  }
+
+  .row-three-img {
+    width: 650px;
+  }
+
+  .title-three {
+    font-size: 38px;
+    margin: 50px 0 30px 0;
+  }
+
+  .btn2 {
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+}
