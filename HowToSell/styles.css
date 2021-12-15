@@ -39,6 +39,7 @@
   text-align: center;
   font-size: 3.5vw;
   margin: 15px 10% 15px 10%;
+  line-height: 1.3;
 }
 
 .btn1 {
@@ -66,32 +67,120 @@
 }
 
 @media screen and (min-width: 768px) {
-    .header-container {
-        padding-top: 100px;
-        padding-bottom: 65px;
-      }
-    
-      .hr1 {
-        border: 4px solid #dddedf;
-        width: 9vw;
-      }
-    
-      .p-1 {
-        font-size: 2.5vw;
-        margin: 20px 5% 35px 5%;
-      }
-    
-      .btn1 {
-        font-size: 2.5vw;
-      }
+  .header-container {
+    padding-top: 100px;
+    padding-bottom: 65px;
+  }
 
-      .item-order {
-        order: 2;
-      }
+  .hr1 {
+    border: 4px solid #dddedf;
+    width: 9vw;
+  }
 
-      .body-container {
-        display: grid;
-        grid-template-columns: auto auto;
-        text-align: center;
-      }
+  .item-order {
+    order: 2;
+  }
+
+  .body-container {
+    grid-template-columns: 50% 50%;
+    text-align: start;
+    justify-content: center;
+  }
+
+  .title-two {
+    text-align: start;
+    font-size: 2.5vw;
+    margin-top: 20%;
+    margin-left: 0;
+    margin-right: 5%;
+  }
+
+  .p-1 {
+    text-align: start;
+    font-size: 1.75vw;
+    margin: 15px 5% 5px 0;
+  }
+
+  .btn1 {
+    font-size: 1.5vw;
+    padding: 8px 24px;
+  }
+
+  .vid {
+    width: 90%;
+    margin: 20% auto 5px auto;
+    display: block;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .title-one {
+    font-size: 4vw;
+  }
+
+  .hr1 {
+    border: 3px solid #dddedf;
+    width: 9vw;
+  }
+
+  .title-two {
+    text-align: start;
+    font-size: 2.25vw;
+    margin-top: 20%;
+    margin-right: 10%;
+  }
+
+  .p-1 {
+    font-size: 1.65vw;
+    margin: 5% 10% 15px 0%;
+    line-height: 1.3;
+  }
+
+  .btn1 {
+    font-size: 1.25vw;
+    padding: 8px 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .title-one {
+    font-size: 38px;
+  }
+
+  .hr1 {
+    width: 70px;
+  }
+
+  .body-container {
+    grid-template-columns: 550px 550px;
+    justify-content: center;
+  }
+  
+  .title-two {
+    text-align: start;
+    font-size: 26px;
+    margin-top: 95px;
+    margin-left: 0%;
+    margin-right: 10%;
+  }
+
+  .p-1 {
+    text-align: start;
+    font-size: 18px;
+    margin: 45px 50px 35px 0%;
+  }
+
+  .btn1 {
+    font-size: 16px;
+  }
+
+  .vid {
+    width: 90%;
+    margin: 100px auto 5px auto;
+    display: block;
+    height: auto;
+  }
+
+
 }
