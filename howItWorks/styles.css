@@ -50,11 +50,11 @@
 }
 
 .p-3 {
-    text-align: center;
-    font-size: 3.5vw;
-    margin: 15px 10% 25px 10%;
-    line-height: 1.3;
-  }
+  text-align: center;
+  font-size: 3.5vw;
+  margin: 15px 10% 25px 10%;
+  line-height: 1.3;
+}
 
 .btn1 {
   font-size: 2.75vw;
@@ -68,6 +68,40 @@
 }
 
 .btn1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: black;
+}
+
+.btn2 {
+  font-size: 2.75vw;
+  color: white;
+  background-color: #eb1c2c;
+  padding: 8px 24px;
+  border-radius: 10px;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: black;
+}
+
+.btn3 {
+  font-size: 2.75vw;
+  color: white;
+  background-color: #eb1c2c;
+  padding: 8px 24px;
+  border-radius: 10px;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn3:hover {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
   background-color: black;
@@ -87,6 +121,30 @@
 }
 
 .title-four {
+  text-align: center;
+  font-size: 4vw;
+  margin-top: 30px;
+}
+
+.title-five {
+  text-align: center;
+  font-size: 4vw;
+  margin-top: 30px;
+}
+
+.title-six {
+  text-align: center;
+  font-size: 4vw;
+  margin-top: 30px;
+}
+
+.title-seven {
+  text-align: center;
+  font-size: 4vw;
+  margin-top: 30px;
+}
+
+.title-eight {
   text-align: center;
   font-size: 4vw;
   margin-top: 30px;
@@ -117,6 +175,14 @@
   text-align: center;
 }
 
+.vertical-container-w-grey {
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  background-color: #ededed;
+  padding: 0 20px 10px 20px;
+}
+
 .color-change {
   color: #eb1c2c;
 }
@@ -131,6 +197,13 @@
 .img3 {
   width: 75%;
   margin: 20px auto 20px auto;
+  display: block;
+  height: auto;
+}
+
+.img4 {
+  width: 75%;
+  margin: 25px auto 0 auto;
   display: block;
   height: auto;
 }
@@ -195,14 +268,14 @@
   }
 
   .horizontal-container-w-grey2 {
-      text-align: start;
+    text-align: start;
     padding: 5px 20px 0 20px;
     display: grid;
     grid-template-columns: 50% 50%;
   }
   
   .horizontal-container-w-white {
-      text-align: start;
+    text-align: start;
     padding: 5px 20px 0 20px;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -211,38 +284,258 @@
   .title-four {
     text-align: start;
     font-size: 2.75vw;
-    margin: 32% 0 0 0;
+    margin: 50% 0 0 0;
+  }
+
+  .title-five {
+    text-align: start;
+    font-size: 2.75vw;
+    margin: 15% 0 0 0;
+  }
+
+  .title-six {
+    text-align: start;
+    font-size: 2.75vw;
+    margin: 40% 0 0 0;
+  }
+
+  .title-seven {
+    text-align: start;
+    font-size: 2.75vw;
+    margin: 30% 0 0 0;
+  }
+
+  .title-eight {
+    text-align: start;
+    font-size: 2.75vw;
+    margin: 20% 0 0 0;
   }
 
   .p-2 {
     text-align: start;
-    font-size: 2.5vw;
-    margin: 20px 0% 25px ;
+    font-size: 2vw;
+    margin: 5% 0 5% 0 ;
+    line-height: 1.3;
+  }
+
+  .p-3 {
+    text-align: center;
+    font-size: 2vw;
+    margin: 5% 5% 5% 5% ;
     line-height: 1.3;
   }
 
   .btn1 {
-    font-size: 2.25vw;
-    color: white;
-    background-color: #eb1c2c;
-    padding: 8px 24px;
-    border-radius: 10px;
-    border: none;
-    transition: 0.3s;
-    cursor: pointer;
+    font-size: 1.75vw;
+    margin-bottom: 25px;
+  }
+
+  .btn2 {
+    font-size: 1.75vw;
+    margin-bottom: 25px;
+  }
+
+  .btn3 {
+    font-size: 1.75vw;
+    margin-top: 20px;
+    margin-bottom: 200px;
   }
 
   .img2 {
     width: 95%;
-    margin: 25px auto 0 auto;
+    margin: 18% auto 0 auto;
     display: block;
     height: auto;
+    padding: 0;
   }
 
   .img3 {
     width: 95%;
-    margin: 20px auto 0 auto;
+    margin: 0 auto 0 auto;
     display: block;
     height: auto;
   }
+
+  .img4 {
+    width: 100%;
+    margin: 18% auto 0 auto;
+    display: block;
+    height: auto;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 922px) {
+  .title-one {
+    font-size: 4vw;
+  }
+
+  .hr1 {
+    border: 3px solid #dddedf;
+    width: 9vw;
+  }
+
+  .p-1 {
+    font-size: 2vw;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    margin: 20px 5% 35px 5%;
+  }
+
+  .title-two {
+    font-size: 2.25vw;
+    margin-left: 2%;
+    margin-right: 0;
+  }
+
+  .p-2 {
+    text-align: start;
+    font-size: 1.75vw;
+    margin: 15px 10% 15px 10%;
+  }
+
+  .p-3 {
+    font-size: 1.75vw;
+    margin: 15px 10% 15px 10%;
+  }
+
+  .title-four {
+    font-size: 2.25vw;
+    margin-left: 10%;
+  }
+
+  .title-five {
+    font-size: 2.25vw;
+    margin-left: 10%;
+  }
+
+  .title-six {
+    font-size: 2.25vw;
+    margin-left: 10%;
+  }
+
+  .title-seven {
+    font-size: 2.25vw;
+    margin-left: 10%;
+  }
+
+  .title-eight {
+    font-size: 2.25vw;
+    margin-left: 10%;
+  }
+
+  .btn1 {
+    font-size: 1.5vw;
+    margin-bottom: 25px;
+    margin-left: 10%;
+  }
+
+  .btn2 {
+    font-size: 1.5vw;
+    margin-bottom: 25px;
+  }
+
+  .btn3 {
+    font-size: 1.5vw;
+    margin-bottom: 300px;
+    margin-left: 10%;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .vertical-container {
+    display: grid;
+    grid-template-columns: 1175px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .title-one {
+    font-size: 38px;
+  }
+
+  .hr1 {
+    width: 70px;
+  }
+
+  .p-1 {
+    display: grid;
+    grid-template-columns: 800px;
+    justify-content: center;
+    font-size: 24px;
+    margin: 75px 15% 35px 15%;
+  }
+
+  .btn1 {
+    font-size: 16px;
+    margin-top: 30px;
+  }
+
+  .btn2 {
+    font-size: 16px;
+    margin-top: 30px;
+  }
+
+  .btn3 {
+    font-size: 16px;
+    margin-top: 30px;
+  }
+
+  .vid {
+    width: 75%;
+    margin: 25px auto 5px auto;
+    display: block;
+    height: auto;
+  }
+
+  .title-two {
+
+    font-size: 26px;
+    margin-top: 75px;
+  }
+
+  .title-three {
+
+    font-size: 26px;
+    margin: 200px 10% 0 10%;
+  }
+
+  .title-four {
+    font-size: 26px;
+    margin-top: 300px;
+  }
+  
+  .title-five {
+    font-size: 26px;
+    margin-top: 125px;
+  }
+  
+  .title-six {
+    font-size: 26px;
+    margin-top: 250px;
+  }
+  
+  .title-seven {
+    font-size: 26px;
+    margin-top: 200px;
+  }
+  
+  .title-eight {
+    font-size: 26px;
+    margin-top: 100px;
+  }
+
+  .p-2 {
+    font-size: 18px;
+    margin: 30px 10% 25px 10%;
+  }
+  
+  .p-3 {
+    font-size: 18px;
+    margin: 50px 10% 25px 10%;
+  }
+
+
+  
 }
