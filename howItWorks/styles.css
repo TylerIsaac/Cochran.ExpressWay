@@ -6,6 +6,13 @@
   margin: 0;
 }
 
+.body-container {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 0;
+  margin: 0;
+}
+
 .header-container {
   background-color: #eceff2;
   text-align: center;
@@ -444,6 +451,14 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .body-container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1200px;
+    padding: 0;
+    margin: 0;
+  }
+
   .vertical-container {
     display: grid;
     grid-template-columns: 1175px;
