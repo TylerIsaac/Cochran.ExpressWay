@@ -1,3 +1,73 @@
+/* webpage mods */
+
+.Section {
+  padding: 5rem 0 !important;
+}
+
+footer.relative.z-4.print\:hidden.RdCloak-hide {
+  background-color: black;
+}
+
+span.SiteHeader-logo {
+  background-image: var(--logo-src2);
+}
+
+input#header_search_control {
+  border-color: rgba(0,0,0,.15);
+  color: var(--input-color);
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:    black !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ color:    black !important;
+ opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+ color:    black !important;
+ opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color:    black !important;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+ color:    black !important;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+ color:    black !important;
+}
+
+.SiteHeader-inner.RdCloak-invisible {
+  color: black !important;
+}
+
+.navbar {
+width: 100%;
+height: 80px;
+background-color: #f7f7f7;
+}
+
+.HpHero.HpHero--marketplace.HpHero--light {
+  display: none;
+}
+
+.sm\:text-md {
+  display: none;
+}
+
+.text-base {
+  display: none;
+}
+.text-center.px-3.mb-3 {
+  display: none;
+}
+
+.HpHero-menu.RdCloak-invisible {
+  display: none;
+}
+
 .container {
   display: grid;
   grid-template-columns: auto;
@@ -6,11 +76,8 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar {
-width: 100%;
-height: 80px;
-background-color: #eaebec;
-}
+/* webpage mods */
+
 
 .body-container {
   display: grid;
@@ -123,7 +190,7 @@ background-color: #eaebec;
   margin-top: 12px;
   text-align: center;
   text-decoration: none;
-  border: 1.5px solid white;
+  border: 2px solid white;
   font-size: 3vw;
   color: white;
   background-color: #eb1c2c;
@@ -727,7 +794,7 @@ background-color: #eaebec;
 
   .vid-container {
     grid-template-columns: 550px 550px;
-    justify-content: space-between; 
+    justify-content: center; 
   }
 
   .vid-container-white {
