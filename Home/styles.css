@@ -372,39 +372,17 @@ background-color: #eaebec;
     padding-bottom: 43%;
   }
 
-  .main-title {
-    font-size: 32px;
-  }
-
-  .sub-title {
-    margin-top: 2%;
-    font-size: 22px;
-  }
-
   .btn-group {
     margin-top: 4%;
     justify-content: center;
   }
 
   .btn1 {
-    font-size: 12px;
-    padding: 9px 34px;
+    padding: 9px 15px;
     margin: 0 18px;
   }
 
-  .title-disc {
-    margin-top: 2.5%;
-    font-size: 16px;
-  }
 
-  .title-two {
-    margin-top: 8%;
-    font-size: 32px;
-  }
-
-  .sub-title-two {
-    font-size: 20px;
-  }
 
   .cta {
     grid-template-columns: 150px 150px 150px 150px;
@@ -412,15 +390,24 @@ background-color: #eaebec;
     grid-gap: 4%;
   }
 
-  .sub-title-three {
-    margin-top: 2%;
+  .cta-1 {
+    padding: 15px 0px;
     font-size: 20px;
+  }
+  
+  .cta-btn {
+    font-size: 18px;
+    padding: 6px 2px;
+    width: 82%;
+  }
+
+  .sub-title-three {
+    font-size: 3.5vw;
   }
 
   .description-1 {
-    margin-top: 3%;
-    font-size: 16px;
-    padding: 0 20%;
+    font-size: 2vw;
+    padding: 0 12%;
   }
 
   .how-to-video {
@@ -440,15 +427,16 @@ background-color: #eaebec;
 
   .video-title {
     text-align: start;
-    margin-top: 18%;
-    font-size: 18px;
+    margin-top: 8%;
+    font-size: 2.5vw;
+    padding: 0 8% 0 30px;
   }
 
   .video-text {
     text-align: start;
     margin: 5% 0;
-    padding: 0 8% 0 10px;
-    font-size: 14px;
+    padding: 0 8% 0 30px;
+    font-size: 2vw;
   }
 
   .vid-container-white {
@@ -461,8 +449,8 @@ background-color: #eaebec;
   .video-title-white {
     text-align: start;
     padding:0 10px 0 10%;
-    margin-top: 19%;
-    font-size: 18px;
+    margin-top: 8%;
+    font-size: 2.5vw;
     
   }
   
@@ -470,7 +458,7 @@ background-color: #eaebec;
     text-align: start;
     margin: 5% 0;
     padding: 0 10px 0 10%;
-    font-size: 14px;
+    font-size: 2.25vw;
   }
 
   .vid-in-container-white {
