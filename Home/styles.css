@@ -1,3 +1,47 @@
+/* FAQ */
+.faq-container {
+  background-color: #eaebec;
+  padding: 10% 0;
+}
+
+.collapsible {
+  background-color: #eaebec;
+  color: black;
+  cursor: pointer;
+  padding: 6% 5% 2% 10%;
+  width: 100%;
+  border: none;
+  text-align: start;
+  outline: none;
+  font-size: 4vw;
+  text-decoration: none;
+}
+
+.active, .collapsible:hover {
+  
+}
+
+.content {
+  padding: 0 5% 10% 10%;
+  font-size: 4vw;
+  display: none;
+  overflow: hidden;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: black;
+  font-weight: 900;
+  float: left;
+  margin: -6.5% 5px 0 -5%;
+  padding: 0;
+}
+
+.active:after {
+  content: "\2212";
+}
+/* FAQ */
+
 /* webpage mods */
 
 .Section {
